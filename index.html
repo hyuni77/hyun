@@ -1,31 +1,55 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HYUNI77 - Album Cover Redesign</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Hoyn</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            width: 100%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .hero {
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">HYUNI77</div>
-        <ul class="nav-links">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="portfolio.html">PORTFOLIO</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-
+    <header>
+        <h1>Hoyn</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
-        <div class="hero-content">
-            <h1>HYUNI77</h1>
-            <p class="subtitle">Album Cover & Entertainment Design</p>
-            <a href="portfolio.html" class="btn-primary">작업물 보기</a>
-        </div>
+        <h2>Welcome to Hoyn</h2>
+        <p>Your go-to platform for all things Hoyn.</p>
     </section>
-
     <footer>
-        <p>&copy; 2026 HYUNI77. All rights reserved.</p>
+        <p>&copy; 2026 Hoyn. All rights reserved.</p>
     </footer>
 </body>
 </html>
